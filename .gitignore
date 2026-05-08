@@ -1,0 +1,29 @@
+# Claude Code session data — excluded from sync (recursive loop risk)
+.claude/
+
+# Raw inbound data — immutable, excluded from cloud sync
+raw-staging/
+
+# Linting output — excluded from cloud sync, human review only
+lint-reports/
+
+# Agent scripts — excluded from cloud sync
+scripts/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Audio demo (large binary, hosted externally)
+*.m4a
+*.mp4
+*.mov
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Obsidian workspace files (local config, not portfolio content)
+.obsidian/workspace
+.obsidian/cache
